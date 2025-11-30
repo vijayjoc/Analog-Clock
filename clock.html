@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Modern Clock</title>
+    <link rel="stylesheet" href="clock.css">
+</head>
+<body>
+    <div class="clock-container">
+        <canvas id="clock" width="400" height="400"></canvas>
+        <div id="digital" class="digital-time"></div>
+        <select id="timezone">
+            <option value="UTC">UTC</option>
+            <option value="GMT+5:30">IST (GMT+5:30)</option>
+            <option value="GMT-4">EST (GMT-4)</option>
+            <option value="GMT+1">CET (GMT+1)</option>
+        </select>
+    </div>
+
+    <script src="clock.js"></script>
+</body>
+</html>
